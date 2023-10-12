@@ -438,3 +438,25 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
     background: #025802;
 }
 
+.card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background: var(--black);
+  background-clip: border-box;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.x{
+  text-decoration: none;
+  transition: .5s;
+
+}
+
+.x:hover{
+  transform: translateY(-10px) translateX(-10px);
+}
